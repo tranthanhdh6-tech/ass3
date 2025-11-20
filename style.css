@@ -117,3 +117,49 @@ button:hover {
     transform: translateY(0);
   }
 }
+@media (max-width: 1024px) {
+  .container {
+    gap: 30px;
+  }
+  .form-box {
+    width: 280px;
+    padding: 20px;
+  }
+  .profile-card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .form-box {
+    width: 90%;
+    max-width: 350px;
+  }
+  .profile-card {
+    width: 45%;
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 26px;
+  }
+  .form-box {
+    width: 95%;
+    padding: 15px;
+  }
+  .profile-card {
+    width: 80%;
+  }
+  .preview {
+    width: 100px;
+    height: 100px;
+  }
+}
+
