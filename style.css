@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #8ca6cc;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+.container {
+  justify-content: center;
+  justify-items: center;
+}
+.form-box {
+  width: 320px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background: #1a73e8;
+  cursor: pointer;
+  border-radius: 6px;
+}
+button:hover {
+  color: #2ebfe4;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cards-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-card {
+  width: 200px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-card h3 {
+  font-size: 18px;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  padding: 8px;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  opacity: 0.8;
+}
