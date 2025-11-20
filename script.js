@@ -27,7 +27,7 @@ document.getElementById("generateBtn").addEventListener("click", () => {
   card.style.background = theme;
 
   card.innerHTML = `
-        <img src="${imageURL}">
+        <img src="${imageURL}"alt="Profile Image">
         <h3>${name}</h3>
         <p>${role}</p>
         <button class="delete-btn">Delete</button>
@@ -45,3 +45,4 @@ document.getElementById("generateBtn").addEventListener("click", () => {
   imageInput.value = "";
   preview.src = "https://via.placeholder.com/120";
 });
+
