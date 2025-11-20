@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Profile Card Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Advanced Profile Card Generator</h1>
+
+    <div class="container">
+      <div class="form-box">
+        <h2>Create a Card</h2>
+
+        <label>Name:</label>
+        <input
+          type="text"
+          id="nameInput"
+          placeholder="e.g., John Doe"
+          required
+        />
+
+        <label>Role:</label>
+        <input type="text" id="roleInput" placeholder="e.g., UX Designer" />
+
+        <label>Profile Image URL:</label>
+        <input type="url" id="imageInput" placeholder="Image URL..." />
+
+        <label>Select Card Color:</label>
+        <select id="themeInput">
+          <option value="#ffffff">White</option>
+          <option value="#e6f0ff">Light Blue</option>
+          <option value="#fdebd0">Soft Orange</option>
+          <option value="#e8f8f5">Mint</option>
+          <option value="#f5eef8">Lavender</option>
+        </select>
+
+        <h4>Preview Image:</h4>
+        <img
+          id="imagePreview"
+          class="preview"
+          src="https://via.placeholder.com/120"
+        />
+
+        <button id="generateBtn">Generate Card</button>
+      </div>
+
+      <div class="cards-section">
+        <h2>Your Cards</h2>
+        <div id="cardsContainer" class="cards-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
